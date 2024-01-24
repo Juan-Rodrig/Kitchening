@@ -1,0 +1,15 @@
+
+.footer{
+    text-align: center;
+}
+
+footer nav .footer-nav{color: white;padding: 0px;margin: 0px;}
+
+.footer-nav li a{
+    color: white;
+    display: block;
+    background-color: var(--rojo);
+    margin: 2px auto;
+    padding: 6px;
+}
+

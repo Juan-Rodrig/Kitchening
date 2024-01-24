@@ -1,0 +1,46 @@
+body .main-header{
+    text-align: center;
+}
+
+header.main-header .logo{display: block;border-radius: 50%;}
+
+.main-header .logo{
+
+margin: 20px auto 25px;
+
+margin-bottom: 40px;
+}
+
+.main-header .menu{
+    padding: 7px 10px;
+    background-color: var(--gray);
+    color: white;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+header.main-header .nav{
+    
+}
+
+header.main-header .ul{
+
+}
+
+header.main-header.ul li{
+    
+}
+
+header.main-header ul li a{
+    list-style: none;
+    padding: 6px;
+    background-color: var(--gray);
+    margin: 2px auto;
+    display: block;
+    color: white;
+}
+
+header.main-header .main-nav{
+    margin-top: 25px;
+    padding: 0px;
+}

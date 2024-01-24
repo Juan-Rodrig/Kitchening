@@ -1,0 +1,45 @@
+
+main .main{
+
+}
+
+main section .baner{
+
+display: none;
+}
+
+
+.all-products .productos{
+margin: 10px 0px;
+} 
+
+.all-products .productos .fotos{
+    
+position: relative;
+}
+
+.all-products .productos .fotos .foto{width: 100%;}
+
+.productos .fotos .ticket{
+
+position: absolute;
+
+top: 0px;
+
+right: 15px;
+}
+
+.productos .fotos .zoom{background-color: rgba(0,0,0,0.5);color: white;display: block;text-align: center;position: absolute;width: 100%;padding: 5px;transform: translateY(-50%);top: 50%;}
+
+.all-products .productos h2{
+
+font-family: var(--fuentePopis);
+}
+
+.all-products .productos p{
+
+font-family: var(--fuentePopis);
+}
+
+.all-products .productos a.more{background-color: var(--gray);padding: 8px;color: white;display: inline-block;margin-bottom: 13px;}
+
