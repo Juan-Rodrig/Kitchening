@@ -1,6 +1,6 @@
 
-main .main{
-
+.body-main{
+    background-image: url("../image/bg-body.png");
 }
 
 main section .baner{
@@ -10,7 +10,8 @@ display: none;
 
 
 .all-products .productos{
-margin: 10px 0px;
+
+margin: 10px 0px;
 } 
 
 .all-products .productos .fotos{
@@ -29,7 +30,7 @@ top: 0px;
 right: 15px;
 }
 
-.productos .fotos .zoom{background-color: rgba(0,0,0,0.5);color: white;display: block;text-align: center;position: absolute;width: 100%;padding: 5px;transform: translateY(-50%);top: 50%;}
+.productos .fotos .zoom{background-color: rgba(0,0,0,0.5);color: white;display: block;text-align: center;position: absolute;width: 100%;padding: 5px 0px;transform: translateY(-50%);top: 50%;}
 
 .all-products .productos h2{
 
@@ -43,3 +44,73 @@ font-family: var(--fuentePopis);
 
 .all-products .productos a.more{background-color: var(--gray);padding: 8px;color: white;display: inline-block;margin-bottom: 13px;}
 
+    /* TABLET */
+
+@media (min-width: 426px) {
+    
+    .sec-baner{
+    text-align: center;
+}
+
+    main .sec-baner .baner{
+    display: inline-block;
+    width: 90%;
+}
+
+    .all-products{
+    text-align: center;
+}
+
+    .all-products .productos{
+    width: calc(45% - 2px);
+    display: inline-block;
+} 
+    
+    .all-products .productos .fotos{}
+    
+    .all-products .productos .fotos .foto{}
+    
+    .productos .fotos .ticket{}
+    
+    .productos .fotos .zoom{}
+    
+    .all-products .productos h2{}
+    
+    .all-products .productos p{}
+    
+    .all-products .productos a.more{}
+}
+
+@media (min-width: 769px) {
+
+    main .sec-baner{
+    text-align: center;
+}
+    
+    .main .sec-baner .baner{
+    display: inline-block;
+    width: 100%;
+}
+
+    .all-products{}
+    
+    .all-products .productos{
+    width: calc(33.33% - 3px);
+    display: inline-block;
+    } 
+    
+    .all-products .productos .fotos{}
+    
+    .all-products .productos .fotos .foto{}
+    
+    .productos .fotos .ticket{}
+    
+    .productos .fotos .zoom{}
+    
+    .all-products .productos h2{}
+    
+    .all-products .productos p{}
+    
+    .all-products .productos a.more{}
+
+}

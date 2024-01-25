@@ -1,6 +1,5 @@
 
 html {
-    background-image: url("../image/bg-body.png");
 }
 
 :root{
@@ -15,3 +14,5 @@ a {
     text-decoration: none;
     font-family: var(--fuentePopis);
 }
+
+

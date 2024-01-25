@@ -33,7 +33,7 @@ header.main-header.ul li{
 
 header.main-header ul li a{
     list-style: none;
-    padding: 6px;
+    padding: 8px 5px;
     background-color: var(--gray);
     margin: 2px auto;
     display: block;
@@ -43,4 +43,68 @@ header.main-header ul li a{
 header.main-header .main-nav{
     margin-top: 25px;
     padding: 0px;
+}
+
+
+@media (min-width: 426px) {
+
+    .body-main{}
+    
+    body .main-header{}
+    
+    header.main-header .logo{}
+    
+    .main-header .logo{}
+    
+    .main-header .menu{
+    display: none;
+}
+    
+    header.main-header .nav{}
+    
+    .main-header .nav .main-nav{}
+
+    .main-header .nav .main-nav .cuadro-nav{display: inline-block;width: 120px;}
+    
+    .main-header.ul li{}
+    
+    .main-header ul li a{}
+}
+
+@media (min-width: 769px) {
+
+    .body-main{margin: 0px 70px;}
+
+    body .main-header{}
+    
+    header.main-header .logo{
+    margin: 15px auto 30px;
+    width: 180px;
+    border: 2px solid #cccccc;
+}
+    
+    .main-header .logo{}
+    
+    .main-header .menu{}
+    
+    header.main-header .nav{}
+
+    header.main-header .nav :nth-last-child(6){
+        margin-right: 0px;
+    }
+    
+    .main-header .nav .main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+    .main-header .nav .main-nav .cuadro-nav{
+    /* display: inline-block; */
+    width: 150px;
+    /* margin-right: 14px;*/ }
+    
+    header.main-header.ul li{}
+    
+    header.main-header ul li a{
+}
 }
